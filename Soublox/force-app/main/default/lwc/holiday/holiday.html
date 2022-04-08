@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Holidays">
+        <div class="slds-m-around_medium">
+            <template if:true={holidays}>
+                <template if:true={isHoliday}>
+                    <template for:each={holidays} for:item="holiday">
+                        <p key={holiday.Name}>Enjoy your {holiday.Name} holiday!</p>
+                    </template>
+                </template>
+                <template if:false={isHoliday}>
+                    <template for:each={holidays} for:item="holiday">
+                        <p key={holiday.Name}>The Next Holiday is {holiday.Name} and it will be on {holiday.Date__c} and we have {daysUntil} day's until it</p>
+                    </template>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

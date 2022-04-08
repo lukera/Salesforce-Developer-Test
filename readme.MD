@@ -103,18 +103,18 @@ If the current date is the same date as the holiday, you need to show like:
 Here is a final checklist you can use to double-check all the steps we are expecting as the result of this test
 
 ```
-[ ] Create a new Fresh Org
-[ ] Grant access to all IPv4 from 0.0.0.0 to 255.255.255.255
-[ ] Create a custom Object and fields indicated in step 1
-[ ] Create the Apex Class to connect to the web service
-[ ] Create the Test Class to cover all your Apex Class
-[ ] Create a Mock to simulate all kinds of results (200, 404, 500)
-[ ] Create a ScheduledApex Job to run once a year
-[ ] Create the Test class for your ScheduledApex Job
-[ ] Create the fields indicated in step 4
-[ ] Create the Trigger or Flow for step 5
-[ ] Create the Test Class for step 5 if applicable
-[ ] Create the LWC component proposal in step 6
-[ ] Commit and push everything you created on this project to Git
-[ ] Submit the Git URL and the Username and Password of the Org to the HR team
+[x] Create a new Fresh Org
+[x] Grant access to all IPv4 from 0.0.0.0 to 255.255.255.255
+[x] Create a custom Object and fields indicated in step 1
+[x] Create the Apex Class to connect to the web service
+[x] Create the Test Class to cover all your Apex Class
+[x] Create a Mock to simulate all kinds of results (200, 404, 500)
+[x] Create a ScheduledApex Job to run once a year
+[x] Create the Test class for your ScheduledApex Job
+[x] Create the fields indicated in step 4
+[x] Create the Trigger or Flow for step 5
+[x] Create the Test Class for step 5 if applicable
+[x] Create the LWC component proposal in step 6
+[x] Commit and push everything you created on this project to Git
+[x] Submit the Git URL and the Username and Password of the Org to the HR team
 ```
